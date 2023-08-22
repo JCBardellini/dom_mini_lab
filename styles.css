@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5em; /* 40px */
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: beige;
+    background-color: rgb(72, 71, 71);
+    letter-spacing: 3px;
+}
+#hide {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 3px 5px rgb(78, 76, 76);
+    cursor: pointer;
+}   
+#unhide {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 3px 5px rgb(78, 76, 76);
+    margin-top: 20px;
+    cursor: pointer;
+}   
